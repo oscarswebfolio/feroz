@@ -1,0 +1,364 @@
+:root {
+    --BootyBodyYouth: rgb(48, 84, 161);
+    --Norican: 'Heebo', sans-serif;
+    --Heebo: 'Heebo', sans-serif;
+}
+/*Mobile First*/
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,0.8211659663865546) 0%, rgba(0,0,255,0.8071603641456583) 55%, rgba(23,54,156,1) 94%);  
+    color: white;
+    font-family: var(--Heebo);;
+}
+.logo {
+    width: 260px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+.copy__desktop {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+main {
+     
+
+    background-size: cover;
+}
+.fun {
+    background: url('BootyBodyYouth-Dumbbells.jpg');
+    background-size: cover;
+}
+/*Header*/
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.header__link {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    font-size: 20px;
+}
+.header__link:hover {
+    color:rgb(122, 91, 201)
+}
+/*Copy*/
+.copy__title {
+    text-align: center;
+    font-family: var(--Norican);
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    display: none;
+}
+.copy__info {
+    text-align: center;
+    font-size: 20px;
+    width: 270px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Form*/
+.form {
+   width: 320px;
+   background-color: rgb(27, 27, 27);
+   padding-top: 10px;
+   padding-bottom: 30px;
+   margin: auto;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.form__title {
+   text-align: center;
+   font-size: 23px;
+   margin-bottom: 0px;
+}
+.form__label {
+    display: block;
+    margin: auto;
+    width: 206px;
+    margin-top: 8px;
+}
+.form__input {
+    width: 200px;
+    margin: auto;
+    display: block;
+    height: 20px;
+}
+.form__select {
+    width: 205px;
+    margin: auto;
+    display: block;
+    height: 30px;
+}
+.form__submit {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    width: 205px;
+    color: white;
+    background: var(--BootyBodyYouth);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px #ededed;
+}
+.form__submit:hover {
+    background-color: rgb(24, 119, 45);
+}
+
+/*Rates*/
+.rates {
+    padding-bottom: 40px;
+    background-color: rgb(44, 40, 40);
+}
+.rates__title {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 8vw;
+    padding-top: 20px;
+}
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pricing__container {
+    box-shadow: 0px 0px 1px black;
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+.pricing__container-1 {
+    background: url('laptop.png') center;
+    background-size: cover;
+}
+.pricing__container-2 {
+    background: url('about-background.jpg') center;
+    background-size: cover;
+}
+.pricing__container-3 {
+    background: url('In-Home.png') center;
+    background-size: cover;
+}
+.pricing__title {
+    text-align: center;
+    font-size: 33px;
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pricing__price {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 35px;
+}
+/* Testimonials */
+.testimonials__title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    padding-bottom: 40px;
+    
+}
+.client {
+
+}
+.client__name {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+.client__image {
+    margin: auto;
+    display: block;
+   
+}
+.client__image-1 {
+    width: 300px;
+}   
+.client__image-2 {
+    width: 300px;
+}
+.client__info {
+    width: 95%;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 22px;
+    text-align: center;
+    
+}
+.client__info-1 {
+    margin-bottom: 80px;
+}
+
+/*Included*/
+.included {
+    background-color: rgb(44, 40, 40);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.included__title {
+    text-align: center;
+    margin-bottom: 0;
+}
+.included__item {
+    width: 300px;
+    margin: auto;
+    display: block;
+    font-size: 16px;
+}
+/*Footer*/
+.footer {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: black;
+    justify-content: center;
+}
+.footer__link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer__link:hover {
+    text-decoration: underline;
+}
+@media screen and (min-width: 700px) {
+    .copy__desktop {
+        font-size: 18px;
+        width: 98%;
+    }
+    header {
+        display: block;
+        
+    }
+    .header__link {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .logo {
+        display: none;
+    }
+    .copy__title {
+        display: block;
+        margin-top: 65px;
+        font-size: 60px;
+    }
+    .copy__info {
+        font-size: 28px;
+        width: 550px;
+        margin-top: -10px;
+    }
+    .form {
+        width: 400px;
+    }
+    .form__title {
+        font-size: 30px;
+    }
+    .form__input {
+        width: 280px;
+        height: 30px;
+    }
+    .form__label {
+        width: 285px;
+        font-size: 22px;
+    }
+    .form__select {
+        width: 285px;
+        height: 40px;
+        font-size: 22px;
+    }
+    .form__submit {
+        width: 285px;
+        font-size: 32px;
+    }
+    .included__title {
+        font-size: 45px;
+    }
+    .included__item {
+        font-size: 30px;
+        width: 550px;
+    }
+    .pricing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 680px;
+        margin: auto;
+    }
+    .pricing__container-3 {
+        transform: translateX(170px);
+    }
+    .rates__title {
+        font-size: 50px;
+    }
+    .client__image {
+        width: 500px;
+    }
+    .client__info {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .copy__title {
+        font-size: 90px;
+    }
+    .copy__info {
+        font-size: 34px;
+        width: 100%;
+        margin-top: -10px;
+    }
+    .copy__desktop {
+        font-size: 22px;
+        width: 900px;
+    }
+    .pricing {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1000px;
+        margin: auto;
+    }
+    .pricing__container-3 {
+        transform: translateX(0px);
+    }
+    .testimonials__title {
+        font-size: 50px;
+    }
+    .client__name {
+        font-size: 30px;
+    }
+    .client__info {
+        font-size: 25px;
+        width: 900px;
+    }
+}

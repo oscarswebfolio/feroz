@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>BootyBodyYouth Personal Training </title>
+        <meta name="author" content="Oscar Calzada">
+        <meta name="description" content="personal training by BootyBodyYouth in the la grange area">
+        <meta name="keywords" content="personal training, personal trainer, online, in home, virtual, gym, bootybodyyouth">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="">
+        <script src="script.js" defer></script>
+    </head>
+
+  <!--HTML BEGINS-->
+  <body>
+    <!--Logo-->
+    <img src="Feroz-Logo.png" class='logo' alt="BootyBodyYouth logo">
+
+    <!--Header-->
+    <header style="display: none;">
+        <a class="header__link" href="#testimonials">Testimonials</a>
+        <a class="header__link" href="#freetrial">Free Trial</a>
+        <a class="header__link" href="#pricing">Pricing</a>
+    </header>
+
+    <!--Main-->
+    <main>
+        <!--Ad Copy-->
+        <section class="copy">
+            <p class="copy__title">Feroz Personal Training</p>
+            <p class="copy__info" id="freetrial">OUR CLIENTS CAN DO IT AND SO CAN YOU</p>
+            <p class="copy__desktop">A sedentary lifestyle can result in weakness that can lead to injuries down the road and make simple chores like lifting grocery bags a challenge later in life. The remedy is a well-rounded fitness program includes cardio workouts, strength training and stretching. While cardio gives us longevity, strength training gives us quality of life. </p>
+        </section>
+        <!--Form-->
+        <form action="contact.php" method="POST" class="form">
+            <p class="form__title">What are you waiting for?<br> Sign up for a FREE TRIAL </p>
+            <label class="form__label">Name*</label>
+            <input type="text" name="name" required class="form__input">
+            <label class="form__label">Email*</label>
+            <input type="email" name="email" required class="form__input">
+            <label class="form__label">Phone*</label>
+            <input type="tel" name="phone" required class="form__input" >
+            <label class="form__label">Training Type</label>
+            <select name="type" class="form__select">
+                <option value="online">Online (Recommended)</option>
+                <option value="virtual">Virtual</option>
+                <option value="home">In Home</option>
+            </select>
+            <input type="submit" name="submit" value="REGISTER NOW"  class="form__submit">
+        </form>
+      
+     <section class="fun">
+        <!--Testimonials-->
+        <p class="testimonials__title" id="testimonials"><b>TESTIMONIALS</b></p>
+            <section class="testimonials">
+                <section class="client">
+                    
+                    <img src="oscar-heavy.jpg" id="oscar" alt="woman testimonial" class="client__image client__image-1">
+                    <h3 class="client__name">Shon | Weight Loss Client</h3>
+                    <p class="client__info client__info-1">"I was frustrated with my struggle to change my
+                        physical appearance through fitness. I knew
+                        I had to work with someone that will keep me
+                        accountable and motivated. Feroz did exactly that and more.
+                        They go above and beyond to help you reach your goals." </p>
+                </section>
+                <section class="client">
+                    <img src="griffin-oscar.gif" id="griffin" alt="woman testimonial" class="client__image client__image-2">
+                    <h3 class="client__name">Griffin | Boxing Client</h3>
+                    <p class="client__info">"Feroz taught me the fundamentals necessary to compete at the amateur level"  </p>
+                </section>
+    </section>
+    </main>
+
+    <footer class='footer'>
+        <a class="footer__link" href="privacy.html">Privacy</a>
+        <a class="footer__link" href="terms.html">Terms & Conditions</a>
+    </footer>
+ 
+  </body>
+</html>
